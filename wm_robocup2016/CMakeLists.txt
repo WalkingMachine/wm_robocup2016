@@ -123,7 +123,7 @@ catkin_package(
   std_msgs
   geometry_msgs
   move_base_msgs
-  wm_arm_msgs
+  sara_arm_msgs
   moveit_msgs
   object_recognition_msgs
 #  DEPENDS system_lib
