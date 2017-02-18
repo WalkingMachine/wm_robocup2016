@@ -5,8 +5,8 @@ import smach
 from smach_ros import SimpleActionState, IntrospectionServer
 import wm_supervisor.srv
 from move_base_msgs.msg import MoveBaseAction
-from wm_arm_msgs.msg import executePlanAction, executePlanGoal
-from wm_arm_msgs.srv import computePlan, computePlanResponse, computePlanRequest
+from sara_arm_msgs.msg import executePlanAction, executePlanGoal
+from sara_arm_msgs.srv import computePlan, computePlanResponse, computePlanRequest
 from geometry_msgs.msg import PoseStamped
 from moveit_msgs.msg import RobotTrajectory, CollisionObject
 from shape_msgs.msg import SolidPrimitive
